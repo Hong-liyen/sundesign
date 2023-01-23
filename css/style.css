@@ -91,6 +91,10 @@ a, a:hover {
     cursor: pointer;
 }
 
+.toTop:hover {
+    opacity: .85;
+}
+
 .info {
     background: #F2EADD;
     color: #E3653C;
