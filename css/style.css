@@ -58,6 +58,10 @@ a, a:hover {
     background-color: #1c1c1c;
 }
 
+.vr_bn {
+    background-color: #fff;
+}
+
 .nav-link {
     color: #B4812D;
 }
