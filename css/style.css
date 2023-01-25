@@ -62,6 +62,10 @@ a, a:hover {
     background-color: #fff;
 }
 
+.ani_bn {
+    background: linear-gradient(15deg, #f63239 40%, #eb253e 60%);
+}
+
 .nav-link {
     color: #B4812D;
 }
