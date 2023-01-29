@@ -66,6 +66,10 @@ a, a:hover {
     background-color: #4082e4;
 }
 
+.k_bn {
+    background-color: #f5ede5;
+}
+
 .ani_bn {
     background: linear-gradient(15deg, #f63239 40%, #eb253e 60%);
 }
