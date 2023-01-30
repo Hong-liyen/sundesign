@@ -86,6 +86,10 @@ a, a:hover {
     background: linear-gradient(15deg, #f63239 40%, #eb253e 60%);
 }
 
+.lo_bn {
+    background-color: #dac3a7;
+}
+
 .nav-link {
     color: #B4812D;
 }
