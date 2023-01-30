@@ -123,7 +123,7 @@ a, a:hover {
     opacity: .85;
 }
 
-.info {
+.info, .info a {
     background: #F2EADD;
     color: #E3653C;
     font-weight: bold;
