@@ -54,8 +54,16 @@ a, a:hover {
     background-color: #B9E1ED;
 }
 
+.line_bn {
+    background-color: #00c601;
+}
+
 .pen_bn {
     background-color: #1c1c1c;
+}
+
+.su_bn {
+    background-color: #000;
 }
 
 .vr_bn {
@@ -68,6 +76,10 @@ a, a:hover {
 
 .k_bn {
     background-color: #f5ede5;
+}
+
+.i_bn {
+    background-color: #EFF1F7;
 }
 
 .ani_bn {
