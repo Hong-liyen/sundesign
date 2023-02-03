@@ -15,6 +15,10 @@ a, a:hover {
     text-decoration: none;
 }
 
+.img_border {
+    border: 1px solid rgb(180, 180, 180);
+}
+
 .more {
     border: 1px solid #B4812D;
     background-color: #F2EADD;
@@ -75,7 +79,7 @@ a, a:hover {
 }
 
 .ak_bn {
-    background-color: #FD5592;
+    background: radial-gradient(circle farthest-corner at left,#FD5592,#A051D7);
 }
 
 .k_bn {
@@ -139,4 +143,20 @@ a, a:hover {
 
 .copyright {
     background: #DECAA9;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
