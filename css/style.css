@@ -82,6 +82,10 @@ a, a:hover {
     background: radial-gradient(circle farthest-corner at left,#FD5592,#A051D7);
 }
 
+.fr_bn {
+    background: linear-gradient(180deg,#83C4C0 10%,#448DC0 90%);
+}
+
 .k_bn {
     background-color: #f5ede5;
 }
