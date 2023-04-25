@@ -59,7 +59,7 @@ a, a:hover {
 }
 
 .line_bn {
-    background-color: #00c601;
+    background: radial-gradient(circle farthest-corner at left,#40d686,#28c996);
 }
 
 .pen_bn {
