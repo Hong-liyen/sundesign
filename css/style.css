@@ -86,6 +86,10 @@ a, a:hover {
     background: linear-gradient(180deg,#83C4C0 10%,#448DC0 90%);
 }
 
+.d_bn {
+    background: linear-gradient(180deg,#FCE7EB 10%,#FDBFCB 90%);
+}
+
 .k_bn {
     background-color: #f5ede5;
 }
