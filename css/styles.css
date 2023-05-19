@@ -28,6 +28,10 @@ img {
   flex-shrink: 0;
 }
 
+button {
+  border: 0;
+}
+
 .animated {
   -webkit-animation-duration: .7s;
   animation-duration: .7s;
@@ -58,7 +62,31 @@ a:hover {
   font-size: 15px;
   line-height: 2.5;
 }
-
+/* 麵包屑 */
+.bread-crumbs {
+  position: relative;
+}
+.bread-crumbs ol {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px 0;
+  padding: 0;
+}
+.bread-crumbs ol li {
+  display: inline-flex;
+  align-items: center;
+}
+.bread-crumbs ol li span,
+.bread-crumbs ol li a {
+  font-size: 15px;
+}
+.bread-crumbs ol li > span {
+  color: #a18d82;
+  font-weight: 600;
+}
+/* //麵包屑 */
 /*標題*/
 .page-title .main {
   font-size: 12px;
@@ -80,8 +108,12 @@ a:hover {
   font-weight: 400;
 }
 /*//標題*/
-
-
+/* tab */
+.tab .nav-link.active {
+  color: #fff;
+  background-color: #a18d82;
+}
+/* //tab */
 /*index*/
 .index_prd {
   background-color: #fff;
@@ -290,6 +322,11 @@ a:hover {
     transform: scale(0.9, 0.9);
   }
   /*//menu*/
+  /* tab */
+  .tab .nav-link {
+    min-width: 250px;
+  }
+  /* //tab */
   /* footer */
   .main_logo {
     justify-content: end;
@@ -570,6 +607,11 @@ a:hover {
   }
 
   /*//menu*/
+  /* tab */
+  .tab .nav-link {
+    min-width: 200px;
+  }
+  /* //tab */
   /*footer*/
   .footer {
     text-align: center;
