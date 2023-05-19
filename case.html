@@ -44,7 +44,7 @@
 			<div class="menu_top_right">
 				<div class="row mx-0 d-none d-xl-inline-block">
 					<a href="index.html" class="mr-5">
-						<span class="">首頁</span>
+						<span>首頁</span>
 					</a>
 					<a href="index.html" class="mr-5">
 						<span>日青時光</span>
@@ -93,48 +93,103 @@
 	</div>
 
 	<section class="index_prd py-4">
-		<div class="container py-lg-5">
-			<h2 class="page-title mb-4 text-center">
-				<div class="main d-flex justify-content-center align-items-center">
-					<img src="images/title_img.png" alt="">
-					<span class="ml-1">SUCCESS CASE</span>
-				</div>
+		<div class="container">
+			<div class="bread-crumbs">
+				<ol id="breadcrumbs">
+					<li>
+						<a href="index.html">
+							<span>首頁</span>
+						</a>
+					</li>
+					<li>
+						<i class="fa fa-angle-right mx-1"></i>
+						<span>成功案例</span>
+					</li>
+				</ol>
+			</div>
+			<h2 class="page-title mb-5 text-center">
 				<span class="second">成功案例</span>
+				<div class="main d-flex justify-content-center align-items-center">
+					<span class="mt-2">‒ SUCCESS CASE ‒</span>
+				</div>
 			</h2>
-			<div class="row">
-				<a href="https://hong-liyen.github.io/korea/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
-					<img src="https://i.imgur.com/TrwIL3T.png" alt="" class="product_list">
-				</a>
-				<a href="https://hong-liyen.github.io/sweet/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
-					<img src="https://i.imgur.com/yGxPIGX.png" alt="" class="product_list">
-				</a>
-				<a href="http://www.nutricom.com.tw/index.html" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
-					<img src="https://i.imgur.com/YebFQEF.png" alt="" class="product_list">
-				</a>
-				<a href="https://hong-liyen.github.io/god/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
-					<img src="https://i.imgur.com/QUkXu41.png" alt="" class="product_list">
-				</a>
-				<a href="https://www.motherk.com.tw/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
-					<img src="https://i.imgur.com/xPx9yyo.png" alt="" class="product_list">
-				</a>
-				<a href="https://hong-liyen.github.io/wota/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
-					<img src="https://i.imgur.com/W0QpC0q.png" alt="" class="product_list">
-				</a>
-				<a href="https://hong-liyen.github.io/GPO_v5/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
-					<img src="https://i.imgur.com/32XaSXJ.png" alt="" class="product_list">
-				</a>
-				<a href="https://hong-liyen.github.io/CB_website/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
-					<img src="https://i.imgur.com/a66S7E2.png" alt="" class="product_list">
-				</a>
-				<a href="https://hong-liyen.github.io/GPO_v5/CQ9/index.html" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
-					<img src="https://i.imgur.com/qIPYPbT.png" alt="" class="product_list">
-				</a>
-				<a href="https://hong-liyen.github.io/thai/indexpc.html" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
-					<img src="https://i.imgur.com/GZEcIoS.png" alt="" class="product_list">
-				</a>
-				<a href="https://hong-liyen.github.io/OTPlatform/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
-					<img src="https://i.imgur.com/otASLrq.png" alt="" class="product_list">
-				</a>
+			<ul class="tab nav nav-pills justify-content-center my-4"  id="pills-tab" role="tablist">
+				<li class="nav-item m-2" role="presentation">
+					<button class="nav-link active" id="pills-design-tab" data-bs-toggle="pill" data-bs-target="#pills-design" type="button" role="tab" aria-controls="pills-design" aria-selected="true">網頁設計/架設</button>
+				</li>
+				<li class="nav-item m-2" role="presentation">
+					<button class="nav-link" id="pills-web-tab" data-bs-toggle="pill" data-bs-target="#pills-web" type="button" role="tab" aria-controls="pills-web" aria-selected="false">社群經營</button>
+				</li>
+				<li class="nav-item m-2" role="presentation">
+					<button class="nav-link" id="pills-uiux-tab" data-bs-toggle="pill" data-bs-target="#pills-uiux" type="button" role="tab" aria-controls="pills-uiux" aria-selected="false">影像製作</button>
+				</li>
+				<li class="nav-item m-2" role="presentation">
+					<button class="nav-link" id="pills-video-tab" data-bs-toggle="pill" data-bs-target="#pills-video" type="button" role="tab" aria-controls="pills-video" aria-selected="false">網頁/APP企劃</button>
+				</li>
+			</ul>
+			<div class="tab-content" id="pills-tabContent">
+				<div class="tab-pane fade show active" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab" tabindex="0">
+					<div class="row">
+						<a href="https://hong-liyen.github.io/korea/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
+							<img src="https://i.imgur.com/TrwIL3T.png" alt="" class="product_list">
+						</a>
+						<a href="https://hong-liyen.github.io/sweet/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
+							<img src="https://i.imgur.com/yGxPIGX.png" alt="" class="product_list">
+						</a>
+						<a href="http://www.nutricom.com.tw/index.html" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
+							<img src="https://i.imgur.com/YebFQEF.png" alt="" class="product_list">
+						</a>
+						<a href="https://hong-liyen.github.io/god/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
+							<img src="https://i.imgur.com/QUkXu41.png" alt="" class="product_list">
+						</a>
+						<a href="https://www.motherk.com.tw/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
+							<img src="https://i.imgur.com/xPx9yyo.png" alt="" class="product_list">
+						</a>
+						<a href="https://hong-liyen.github.io/wota/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
+							<img src="https://i.imgur.com/W0QpC0q.png" alt="" class="product_list">
+						</a>
+						<a href="https://hong-liyen.github.io/GPO_v5/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
+							<img src="https://i.imgur.com/32XaSXJ.png" alt="" class="product_list">
+						</a>
+						<a href="https://hong-liyen.github.io/CB_website/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
+							<img src="https://i.imgur.com/a66S7E2.png" alt="" class="product_list">
+						</a>
+						<a href="https://hong-liyen.github.io/GPO_v5/CQ9/index.html" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
+							<img src="https://i.imgur.com/qIPYPbT.png" alt="" class="product_list">
+						</a>
+						<a href="https://hong-liyen.github.io/thai/indexpc.html" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
+							<img src="https://i.imgur.com/GZEcIoS.png" alt="" class="product_list">
+						</a>
+						<a href="https://hong-liyen.github.io/OTPlatform/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
+							<img src="https://i.imgur.com/otASLrq.png" alt="" class="product_list">
+						</a>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab" tabindex="0">
+					<div class="row">
+						<a href="https://hong-liyen.github.io/korea/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
+							<img src="https://i.imgur.com/TrwIL3T.png" alt="" class="product_list">
+						</a>
+						<a href="https://hong-liyen.github.io/sweet/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
+							<img src="https://i.imgur.com/yGxPIGX.png" alt="" class="product_list">
+						</a>
+						<a href="http://www.nutricom.com.tw/index.html" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
+							<img src="https://i.imgur.com/YebFQEF.png" alt="" class="product_list">
+						</a>
+						<a href="https://hong-liyen.github.io/god/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
+							<img src="https://i.imgur.com/QUkXu41.png" alt="" class="product_list">
+						</a>
+						<a href="https://www.motherk.com.tw/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
+							<img src="https://i.imgur.com/xPx9yyo.png" alt="" class="product_list">
+						</a>
+						<a href="https://hong-liyen.github.io/wota/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
+							<img src="https://i.imgur.com/W0QpC0q.png" alt="" class="product_list">
+						</a>
+						<a href="https://hong-liyen.github.io/GPO_v5/" target="_blank" class="col-lg-4 col-sm-6 col-12 text-center mb-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0s">
+							<img src="https://i.imgur.com/32XaSXJ.png" alt="" class="product_list">
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -142,7 +197,7 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 d-none d-xl-inline-block">		
+				<div class="col-md-6 d-none d-md-inline-block">		
 					<div class="copy-right">
 						<img src="images/logo-w.svg" alt="" class="main_logo" width="145">
 					</div>
