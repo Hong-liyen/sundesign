@@ -1,16 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@700&display=swap');
-
-@font-face {
-  font-family: 'Helvetica';
-  src: url('../fonts/CormorantInfant-Regular.ttf') format("truetype"),
-      url('../fonts/Lato-Regular.ttf') format("truetype"),
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Shippori+Mincho+B1:wght@400;500;600;700;800&display=swap');
 
 body {
-  font-family: 'CormorantInfant-Regular', 'Lato-Regular', 'Noto Sans TC', 'Microsoft JhengHei', 'PingFangTC', Arial, Helvetica, sans-serif;
+  font-family: 'Shippori Mincho B1', 'Lato', Arial, Helvetica, sans-serif;
   font-size: 18px;
-  scroll-behavior: smooth;
 }
 
 a {
@@ -69,19 +61,23 @@ a:hover {
 
 /*標題*/
 .page-title .main {
-  font-family: 'CormorantInfant-Regular', 'Lato-Regular';
   font-size: 12px;
   color: #3f3f4d;
-  font-weight: 300;
+  font-weight: 600;
   display: block;
   letter-spacing: 5px;
 }
-
 .page-title .second {
+  font-family: 'Shippori Mincho B1';
+  font-weight: 600;
   font-size: 45px;
   color: #3f3f4d;
   display: block;
   margin-top: 10px;
+}
+.page-title span {
+  font-family: 'Lato';
+  font-weight: 400;
 }
 /*//標題*/
 
@@ -92,20 +88,14 @@ a:hover {
 }
 
 .index_prd .product_list {
-  position: relative;
   border-radius: 20px;
-  overflow: hidden;
-}
-
-.index_prd .slick-slide {
-  margin: 15px;
 }
 
 .index_gallery .slick-slide {
   margin: 40px;
 }
 
-.index_prd .slick-slide a:hover,
+.index_prd a:hover,
 .index_gallery .slick-slide a:hover {
   opacity: .8;
 }
@@ -117,9 +107,11 @@ a:hover {
 .more{
   font-size: 16px;
   display: block;
-  width: 10em;
+  width: 15em;
   margin: 0 auto;
   color: #c5977e;
+  background-color: #f7f5f2;
+  border-radius: 8px;
   cursor: pointer;
   text-align: center;
 }
@@ -185,35 +177,8 @@ a:hover {
   background-color: #a18d82;
   padding: 50px 0;
 }
-footer .title {
-  font-size: 16px;
-  margin-bottom: 18px;
-  font-weight: bold;
-  letter-spacing: 3px;
-}
-
-.footer a {
-  color: #fff;
-  padding-bottom: 3px;
-}
-
-.footer a:hover {
-  color: #3f3f4d;
-}
-.share_icon:hover a img {
-  opacity: 0.5;
-}
-
-.share_icon>a:hover img {
-  opacity: 1;
-}
-
-.footer .share_icon {
-  display: flex;
-}
-
-.footer .share_icon a:first-child {
-  margin-right: 15px;
+.footer span:last-child {
+  margin-top: 18px;
 }
 /*//footer*/
 @media only screen and (min-width: 1200px) {
@@ -308,6 +273,10 @@ footer .title {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .menu_top_right a.active {
+    color: #a18d82;
   }
 
   .scroll .menu_top_left img {
@@ -577,8 +546,7 @@ footer .title {
   }
 
   a.logo img {
-    max-height: 50px;
-    width: auto;
+    max-height: 85px;
   }
 
   #close {
