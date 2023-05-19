@@ -276,7 +276,10 @@ a:hover {
   }
 
   .menu_top_right a.active {
+    padding-bottom: 8px;
     color: #a18d82;
+    font-weight: 600;
+    border-bottom: 3px solid #a18d82;
   }
 
   .scroll .menu_top_left img {
