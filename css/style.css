@@ -629,7 +629,7 @@ a:hover {
   /*//menu*/
   /* tab */
   .tab .nav-link {
-    min-width: 200px;
+    min-width: 100%;
   }
   /* //tab */
   /*footer*/
