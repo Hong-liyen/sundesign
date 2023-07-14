@@ -63,6 +63,10 @@ a:hover {
   line-height: 2.5;
 }
 
+.tab .nav-link {
+  color: #444;
+  background: #fff;
+}
 /* 麵包屑 */
 .bread-crumbs {
   position: relative;
