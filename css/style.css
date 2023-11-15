@@ -351,6 +351,9 @@ a:hover {
     min-width: 250px;
   }
   /* //tab */
+  .index_prd > div{
+    margin-top: 180px;
+  }
   /* footer */
   .main_logo {
     justify-content: end;
